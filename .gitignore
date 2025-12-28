@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.output/
+.svelte-kit/
+.vercel/
+
+# Turborepo
+.turbo/
+
+# Bun
+*.bun
+
+# Anchor / Rust
+packages/contracts/target/
+packages/contracts/.anchor/
+packages/contracts/test-ledger/
+**/*.rs.bk
+
+# Generated SDK (regenerate from IDL)
+packages/sdk/src/generated/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.db-journal
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Misc
+*.pem
+*.key
+.cache/
+tmp/
+
+# AI context (local only)
+CLAUDE.md
+summary.md
