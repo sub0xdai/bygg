@@ -1,0 +1,20 @@
+<svg width="32" height="48" viewBox="0 0 32 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Plant stem -->
+  <path d="M16 48V20" stroke="#2C3639" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Left leaf -->
+  <path d="M16 30C16 30 10 28 8 22C6 16 8 14 8 14C8 14 12 16 14 20C15 22 16 26 16 30Z" 
+        fill="#4A6B7C" stroke="#2C3639" stroke-width="1.5"/>
+  
+  <!-- Right leaf -->
+  <path d="M16 24C16 24 22 22 24 16C26 10 24 8 24 8C24 8 20 10 18 14C17 16 16 20 16 24Z" 
+        fill="#3F4E4F" stroke="#2C3639" stroke-width="1.5"/>
+  
+  <!-- Top leaf -->
+  <path d="M16 20C16 20 14 14 16 8C18 2 20 4 20 4C20 4 18 8 17 12C16.5 14 16 16 16 20Z" 
+        fill="#A27B5B" stroke="#2C3639" stroke-width="1.5"/>
+  
+  <!-- Pot -->
+  <rect x="8" y="44" width="16" height="4" fill="#2C3639"/>
+  <path d="M6 44L8 40H24L26 44H6Z" fill="#3F4E4F" stroke="#2C3639" stroke-width="1.5"/>
+</svg>

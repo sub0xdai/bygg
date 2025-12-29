@@ -1,0 +1,25 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+bygg = "Bygg111111111111111111111111111111111111111"
+
+[programs.devnet]
+bygg = "Bygg111111111111111111111111111111111111111"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "bun run test"
+
+[test]
+startup_wait = 5000
+
+[test.validator]
+url = "https://api.devnet.solana.com"

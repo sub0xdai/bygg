@@ -1,0 +1,81 @@
+:root {
+	/* Nordic Minimalist Color Palette */
+	--color-au-lait: #DCD7C9;
+	--color-inkwell: #2C3639;
+	--color-lunar-eclipse: #3F4E4F;
+	--color-creme-brulee: #A27B5B;
+	
+	/* Blue Accent Colors */
+	--color-nordic-blue: #4A6B7C;
+	--color-nordic-blue-light: #6B8FA3;
+	--color-nordic-blue-dark: #2E4A59;
+	--color-nordic-blue-muted: rgba(74, 107, 124, 0.15);
+	
+	/* Spacing Scale */
+	--spacing-xs: 8px;
+	--spacing-sm: 12px;
+	--spacing-md: 16px;
+	--spacing-lg: 24px;
+	--spacing-xl: 32px;
+	--spacing-2xl: 48px;
+	--spacing-3xl: 64px;
+	
+	/* Border Radius - Sharp architectural edges */
+	--radius-xs: 2px;
+	--radius-sm: 2px;
+	--radius-md: 4px;
+	
+	/* Font Families */
+	--font-heading: 'Archivo', sans-serif;
+	--font-body: 'Lato', sans-serif;
+	
+	/* Font Weights */
+	--font-weight-light: 300;
+	--font-weight-regular: 400;
+	--font-weight-medium: 500;
+	--font-weight-semibold: 600;
+	--font-weight-bold: 700;
+	
+	/* Font Sizes */
+	--font-size-2xs: 0.625rem; /* 10px */
+	--font-size-xs: 0.75rem; /* 12px */
+	--font-size-sm: 0.875rem; /* 14px */
+	--font-size-base: 1rem; /* 16px */
+	--font-size-lg: 1.125rem; /* 18px */
+	--font-size-xl: 1.25rem; /* 20px */
+	--font-size-2xl: 1.5rem; /* 24px */
+	--font-size-3xl: 2rem; /* 32px */
+	--font-size-4xl: 2.5rem; /* 40px */
+	
+	/* Line Heights */
+	--line-height-tight: 1.2;
+	--line-height-base: 1.5;
+	--line-height-relaxed: 1.75;
+	
+	/* Letter Spacing */
+	--letter-spacing-tight: -0.02em;
+	--letter-spacing-normal: 0;
+	--letter-spacing-wide: 0.05em;
+	--letter-spacing-wider: 0.1em;
+	--letter-spacing-widest: 0.15em;
+	
+	/* Structural Borders */
+	--border-structural: 1px solid rgba(63, 78, 79, 0.25);
+	--border-structural-light: 1px solid rgba(63, 78, 79, 0.15);
+	
+	/* Corner Accent Size */
+	--corner-accent-size: 10px;
+	
+	/* Opacity Levels */
+	--opacity-subtle: 0.4;
+	--opacity-medium: 0.6;
+	--opacity-prominent: 0.8;
+	
+	/* Shadows - Minimal (deprecated for Nordic style) */
+	--shadow-sm: 0 1px 2px rgba(44, 54, 57, 0.05);
+	--shadow-md: 0 2px 8px rgba(44, 54, 57, 0.08);
+	
+	/* Transitions */
+	--transition-fast: 150ms ease;
+	--transition-base: 250ms ease;
+}

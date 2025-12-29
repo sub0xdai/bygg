@@ -1,0 +1,26 @@
+{
+  "name": "@bygg/wallet",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "dependencies": {
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-phantom": "^0.9.24",
+    "@solana/wallet-adapter-backpack": "^0.1.14",
+    "@solana/web3.js": "^1.98.0"
+  },
+  "devDependencies": {
+    "svelte": "^5.16.0",
+    "svelte-check": "^4.1.1",
+    "typescript": "^5.7.2"
+  },
+  "peerDependencies": {
+    "svelte": "^5.0.0"
+  }
+}

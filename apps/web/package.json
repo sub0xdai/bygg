@@ -1,0 +1,30 @@
+{
+  "name": "@bygg/web",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "typecheck": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@bygg/db": "workspace:*",
+    "@bygg/sdk": "workspace:*",
+    "@bygg/wallet": "workspace:*",
+    "@solana/web3.js": "^1.98.0",
+    "lucide-svelte": "^0.562.0"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^3.3.1",
+    "@sveltejs/kit": "^2.15.1",
+    "@sveltejs/vite-plugin-svelte": "^4.0.4",
+    "svelte": "^5.16.0",
+    "svelte-check": "^4.1.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.6"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "bygg",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:web": "turbo run dev --filter=@bygg/web",
+    "dev:indexer": "turbo run dev --filter=@bygg/indexer",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "db:generate": "turbo run db:generate --filter=@bygg/db",
+    "db:migrate": "turbo run db:migrate --filter=@bygg/db",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  },
+  "packageManager": "bun@1.1.42",
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@bygg/indexer",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "build": "bun build src/index.ts --outdir=dist --target=bun",
+    "start": "bun run dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@bygg/db": "workspace:*",
+    "@bygg/sdk": "workspace:*",
+    "@solana/web3.js": "^1.98.0",
+    "hono": "^4.6.14"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.14",
+    "typescript": "^5.7.2"
+  }
+}
